@@ -16,7 +16,7 @@ function stringChop(str, size) {
 	j = size
 	s = ""
 	}
-	return "[ " + `${arr.join(", ")}` + " ]"
+	return arr
 }
 // Do not change the code belo
 const str = prompt("Enter String.");
