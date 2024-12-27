@@ -3,6 +3,9 @@ function stringChop(str, size) {
 	let j = size
 	let i = 0
 	let s = ""
+	if(str == null || str == undefined){
+		return arr
+	}else{
 	while(i < str.length){
 	while(j > 0){
 		if(i == str.length){
@@ -17,6 +20,7 @@ function stringChop(str, size) {
 	s = ""
 	}
 	return arr
+	}
 }
 // Do not change the code belo
 const str = prompt("Enter String.");
